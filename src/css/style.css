@@ -1,0 +1,414 @@
+/*===============*/
+/*====GLOBAL====*/
+/*==============*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*===========*/
+/*====NAV====*/
+/*===========*/
+nav {
+  display: flex;
+  height: 145px;
+  background-color: #183544;
+}
+
+#burger {
+  display: none;
+}
+
+.logo-nav {
+  max-width: 255px;
+  max-height: 100px;
+}
+
+.logo-nav-mobile,
+ul {
+  margin: 1rem auto;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  max-width: 421px;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  margin: 0 2rem;
+  line-height: 20px;
+  padding: 0 14px;
+}
+
+nav a:link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+nav li + li {
+  border-left: solid 1px white;
+}
+
+a:hover {
+  color: #edd154;
+}
+
+/*===============*/
+/*====SLIDER====*/
+/*==============*/
+
+.swiper-container {
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+  height: 497px;
+  cursor: grab;
+}
+
+.swiper-container .swiper-wrapper h3 {
+  position: absolute;
+  margin-left: 13rem;
+  margin-top: 7rem;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  max-width: 260px;
+}
+
+.gold {
+  color: #edd154;
+}
+
+/*===============*/
+/*====ARTICLE====*/
+/*==============*/
+
+/* Description */
+
+.description {
+  text-align: center;
+  max-width: 1100px;
+  margin: 3rem auto;
+  color: #183544;
+}
+
+.description .creation span {
+  font-weight: bold;
+}
+
+.liste {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.description h1 {
+  line-height: 0.9rem;
+}
+
+.creation {
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+}
+
+/* Trois logos */
+
+.trois-logos {
+  display: flex;
+  max-width: 1060px;
+  margin: 6rem auto;
+  text-align: center;
+  color: #183544;
+}
+
+.trois-logos h3 {
+  font-weight: 600;
+}
+
+.trois-logos p {
+  line-height: 1.5rem;
+}
+
+.logo-devis,
+.logo-renovation,
+.logo-conseil {
+  max-width: 330px;
+  padding: 2rem;
+}
+
+.rdv {
+  text-align: center;
+}
+
+.rdv button {
+  margin: 0 auto;
+  background-color: #183544;
+  color: white;
+  width: 280px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rdv button:hover {
+  opacity: 0.9;
+}
+
+/*=====================*/
+/*====REALISATIONS=====*/
+/*=====================*/
+
+.realisations {
+  text-transform: uppercase;
+  color: #0a1c25;
+}
+.realisations header {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  line-height: 0.7rem;
+  color: #183544;
+}
+
+.realisations header p {
+  text-transform: uppercase;
+  line-height: 0.7rem;
+}
+
+.photos-renovation {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photo-coworking,
+.photo-maison,
+.photo-appart1,
+.photo-appart2,
+.photo-appart3,
+.photo-triplex {
+  text-align: center;
+  margin-left: 1rem;
+}
+.projets {
+  margin-top: 2rem;
+  margin-left: 28.5rem;
+}
+
+.projets button {
+  margin: 0 auto;
+  background-color: #183544;
+  color: white;
+  width: 240px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projets button:hover {
+  opacity: 0.9;
+}
+
+/*======================*/
+/*=======CONTACT========*/
+/*======================*/
+
+.contact {
+  margin-top: 8rem;
+  text-transform: uppercase;
+  line-height: 00.9rem;
+  text-align: center;
+  color: #0a1c25;
+}
+
+.contact h1 {
+  font-size: 2em;
+}
+
+.pictos {
+  display: flex;
+  max-width: 880px;
+  margin: 3rem auto;
+  line-height: 1.1rem;
+  font-size: 0.9rem;
+}
+
+.contact a:link {
+  text-decoration: none;
+  color: #0a1c25;
+}
+
+.contact a:hover {
+  color: #edd154;
+}
+
+.bureaux,
+.mail,
+.formulaire {
+  width: 230px;
+  margin-left: 5rem;
+}
+
+.contact .pictos a:link {
+  color: #183544;
+  line-height: 0.8rem;
+}
+
+.renovation-bot {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+footer {
+  height: 340px;
+  background-color: #183544;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+
+.contactez-nous {
+  margin-left: 3rem;
+  border-left: solid 1px white;
+  padding-left: 2rem;
+}
+
+.logo-bot {
+  margin-right: 3rem;
+}
+
+.list-bot {
+  margin-top: 2rem;
+  font-weight: lighter;
+}
+
+.contactez-nous a {
+  color: white;
+}
+
+/*==========================*/
+/*=======BACK TO TOP========*/
+/*==========================*/
+
+#scroll_to_top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 30px;
+  background-color: #183544;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#scroll_to_top a .fas:hover {
+  color: white;
+}
+
+#scroll_to_top a .fa-angle-up {
+  font-size: 3rem;
+  color: #edd154;
+}
+
+/*==========================*/
+/*=======MENU BURGER========*/
+/*==========================*/
+
+.fa-bars {
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50%;
+  right: 10%;
+  display: none;
+  color: #edd154;
+}
+
+.show {
+  display: block !important;
+}
+
+#menu {
+  position: relative;
+}
+
+#burger {
+  background-color: #183544;
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  z-index: 10;
+}
+
+#burger ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#burger ul li {
+  border-bottom: solid 1px #edd154;
+  margin: 1rem 0;
+  padding: 0.3rem 0;
+}
+
+#burger ul li a {
+  text-decoration: none;
+  color: #edd154;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-left: 2rem;
+}
+
+/*==========================*/
+/*=======RESPONSIVE=========*/
+/*==========================*/
+@media screen and (max-width: 1024px) {
+  body {
+    max-width: 100vw;
+  }
+  #scroll_to_top {
+    right: 150px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .logo-nav-mobile {
+    margin: 1.6rem 0.5rem;
+  }
+  .logo-nav {
+    width: 200px;
+    height: 80px;
+  }
+  #menu #top ul {
+    display: none;
+  }
+  #menu .fa-bars {
+    display: inline-block;
+  }
+  .swiper-slide {
+    max-width: 100%;
+  }
+}
