@@ -416,7 +416,9 @@ footer {
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+/*******TABLETTE******/
+
+@media screen and (max-width: 768px) {
   .logo-nav-mobile {
     margin: 1.6rem 0.5rem;
   }
@@ -432,5 +434,123 @@ footer {
   }
   .swiper-slide {
     max-width: 100%;
+  }
+
+  .photos-renovation {
+    max-width: 400px;
+  }
+
+  .projets {
+    margin-left: 5rem;
+  }
+
+  .copyright {
+    margin-top: 2rem;
+  }
+
+  .copyright p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .logo-bot {
+    max-width: 25%;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .logo-bot img {
+    max-width: 250px;
+  }
+
+  .list-bot {
+    margin-left: 3rem;
+  }
+
+  .contactez-nous {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
+
+/*******MOBILE******/
+
+@media screen and (max-width: 375px) {
+  .logo-nav-mobile {
+    margin-left: 2rem;
+  }
+
+  .swiper-slide img {
+    object-fit: inherit;
+  }
+
+  .swiper-container .swiper-wrapper h3 {
+    margin-left: 0;
+  }
+
+  .trois-logos {
+    flex-direction: column;
+    max-width: 375px;
+  }
+  .description h1 {
+    line-height: 1.9rem;
+  }
+
+  .realisations h1 {
+    line-height: 1.7rem;
+  }
+
+  .photo-coworking,
+  .photo-maison,
+  .photo-appart1,
+  .photo-appart2,
+  .photo-appart3,
+  .photo-triplex {
+    margin-left: 0;
+  }
+
+  .photo-coworking,
+  .photo-maison,
+  .photo-appart1,
+  .photo-appart2,
+  .photo-appart3,
+  .photo-triplex img {
+    max-width: 375px;
+  }
+
+  .pictos {
+    flex-direction: column;
+    max-width: 375px;
+  }
+  .contact h1 {
+    line-height: 1.7rem;
+  }
+
+  .renovation-bot {
+    flex-direction: column;
+  }
+
+  .renovation-bot img {
+    margin-left: 2rem;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .contactez-nous p {
+    text-align: center;
+  }
+
+  .list-bot {
+    margin-left: 0;
+  }
+  .list-bot p {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .contactez-nous h4 {
+    text-align: center;
   }
 }
