@@ -385,10 +385,32 @@ footer {
 /*==========================*/
 /*=======RESPONSIVE=========*/
 /*==========================*/
+
+@media screen and (max-width: 1400px) {
+  nav ul li a {
+    margin-right: 0;
+    padding: 0 10px;
+    margin-left: 1rem;
+  }
+}
 @media screen and (max-width: 1024px) {
   body {
     max-width: 100vw;
   }
+  .photos-renovation {
+    max-width: 800px;
+  }
+
+  .logo-bot {
+    max-width: 30%;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+  }
+
+  .logo-bot img {
+    max-width: 300px;
+  }
+
   #scroll_to_top {
     right: 150px;
   }
